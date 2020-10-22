@@ -1,7 +1,7 @@
 variable "avname" {}
 variable "rgname" {}
 variable "rglocation" {}
-variables "tags" {}
+variable "tags" {}
 
 
 resource "azurerm_availability_set" "example" {
